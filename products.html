@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover different flavours of wildwonder sparkling drinks. Low on sugar, vegan and full of prebiotics and probiotics.">
+    <meta name="keywords"
+        content="Wildwonder variety pack, Wildwonder drinks, Lychee, Pineapple paradise, Wildwonder guava rose, Wild wonder strawberry passion">
+    <meta name="author" content="Yashkumar Jagani">
+    <title>Enjoy Organic Sparkling Drinks of Different Flavours | Wildwonder</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .product-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-card img {
+            object-fit: cover;
+            height: 200px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .product-card .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .product-card .card-text {
+            font-size: 1rem;
+            color: #555;
+            flex-grow: 1;
+        }
+
+        .product-card .btn-primary {
+            background-color: #4caf50;
+            border: none;
+            width: 100%;
+        }
+
+        .product-card .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+        .category-heading {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: 600;
+            color: #4caf50;
+            text-align: center;
+        }
+
+        .community-section {
+            margin-top: 2rem;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+           
+        }
+
+
+        .community-section h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        .community-section p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .product-card img {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Wildwonder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="our-story.html">Our Story</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Community Hub</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero text-center text-white py-5"
+            style="background-image: url('images/wildwonder-drinks.webp'); background-size: cover; background-position: center;">
+            <div class="container">
+                <h1 class="display-4">Shop Wildwonder's Organic Sparkling Drinks</h1>
+                <h2>Taste the benefits of prebiotics and probiotics in every can.</h2>
+            </div>
+        </section>
+
+        <!-- Product Cards Section -->
+        <section class="py-5">
+            <div class="container">
+                <!-- Variety Packs -->
+                <h2 class="category-heading">Variety Packs</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card product-card">
+                            <img src="images/shark-tank-bundle.webp" alt="Shark Tank Bundle">
+                            <div class="card-body">
+                                <h5 class="card-title">Shark Tank Bundle</h5>
+                                <p class="card-text">Experience the best of Wildwonder with our Shark Tank Bundle. A
+                                    selection of top-selling flavours for delightful tastes.</p>
+                                <p><strong>$110.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card product-card">
+                            <img src="images/sampler-variety-pack.webp" alt="Sampler Variety Pack">
+                            <div class="card-body">
+                                <h5 class="card-title">Sampler Variety Pack</h5>
+                                <p class="card-text">Perfect for exploring Wildwonder's offerings, this pack features a
+                                    mix of our most popular flavours.</p>
+                                <p><strong>$80.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card product-card">
+                            <img src="images/botanical-bouquet.webp" alt="Botanical Bouquet">
+                            <div class="card-body">
+                                <h5 class="card-title">Botanical Bouquet</h5>
+                                <p class="card-text">Indulge in the refined and refreshing flavours of real fruit and
+                                    herbs with the Botanical Bouquet pack.</p>
+                                <p><strong>$70.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card product-card">
+                            <img src="images/digestion-delight.webp" alt="Digestion Delight">
+                            <div class="card-body">
+                                <h5 class="card-title">Digestion Delight</h5>
+                                <p class="card-text">Support your digestive system with this pack infused with
+                                    gut-friendly ingredients for a healthier you.</p>
+                                <p><strong>$70.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <!-- Individual Flavors -->
+                <h2 class="category-heading">Individual Flavors</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/banana-queen.webp" alt="Banana Queen">
+                            <div class="card-body">
+                                <h5 class="card-title">Banana Queen</h5>
+                                <p class="card-text">Limited edition Banana Queen with natural sweetness and tropical
+                                    flair.</p>
+                                <p><strong>$19.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/raspberry-lychee.webp" alt="Raspberry Lychee">
+                            <div class="card-body">
+                                <h5 class="card-title">Raspberry Lychee</h5>
+                                <p class="card-text">A perfect balance of sweet and tart, offering vibrant flavours.</p>
+                                <p><strong>$21.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/strawberry-passion.webp" alt="Strawberry Passion">
+                            <div class="card-body">
+                                <h5 class="card-title">Strawberry Passion</h5>
+                                <p class="card-text">Indulge in vibrant and fruity taste. A crowd favourite.</p>
+                                <p><strong>$20.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/guava-rose.webp" alt="Guava Rose">
+                            <div class="card-body">
+                                <h5 class="card-title">Guava Rose</h5>
+                                <p class="card-text">Sweet and fragrant guava paired with subtle floral notes of rose.
+                                </p>
+                                <p><strong>$20.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/pineapple-paradise.webp" alt="Pineapple Paradise">
+                            <div class="card-body">
+                                <h5 class="card-title">Pineapple Paradise</h5>
+                                <p class="card-text">Vibrant and juicy tropical flavour of Pineapple Paradise.</p>
+                                <p><strong>$21.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/mango-gold.webp" alt="Mango Gold">
+                            <div class="card-body">
+                                <h5 class="card-title">Mango Gold</h5>
+                                <p class="card-text">Luscious sweetness and indulgent mango flavour.</p>
+                                <p><strong>$22.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/peach-ginger.webp" alt="Peach Ginger">
+                            <div class="card-body">
+                                <h5 class="card-title">Peach Ginger</h5>
+                                <p class="card-text">Invigorating combination of peach and ginger.</p>
+                                <p><strong>$20.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card">
+                            <img src="images/lemon-ginger.jpg" alt="Lemon Ginger">
+                            <div class="card-body">
+                                <h5 class="card-title">Lemon Ginger</h5>
+                                <p class="card-text">Refreshing lemon paired with a spicy ginger twist.</p>
+                                <p><strong>$20.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <!-- Gift Bundle -->
+                <h2 class="category-heading">Holiday Gift Bundle</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 mx-auto">
+                        <div class="card product-card">
+                            <img src="images/holiday-gift-bundle.webp" alt="Holiday Gift Bundle">
+                            <div class="card-body">
+                                <h5 class="card-title">Holiday Gift Bundle</h5>
+                                <p class="card-text">Celebrate with curated gift bundles featuring our finest beverages.
+                                </p>
+                                <p><strong>$79.99</strong></p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="community-section">
+                    <div class="container">
+                        <h2>Join the Wildwonder Community</h2>
+                        <p>
+                            At Wildwonder, we are more than just a beverage company—we are a community dedicated to
+                            health,
+                            happiness, and heritage. By choosing our products, you are joining a movement that values
+                            quality,
+                            sustainability, and social responsibility. Explore our collections today and discover the
+                            magic of
+                            Wildwonder for yourself.
+                        </p>
+                        <p>
+                            Thank you for visiting Wildwonder. We invite you to explore our variety packs, discover your
+                            favourite flavours, and join us on our mission to promote health, happiness, and heritage in
+                            every
+                            sip. Cheers to a happy gut and a happy life!
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Wildwonder. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

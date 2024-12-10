@@ -1,0 +1,460 @@
+.hero {
+    height: 80vh;
+    background-image: url('images/wildwonder-drink-banner.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header {
+    background-color: #333333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #b66509;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #b66509;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 30px;
+    height: 3px;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-toggler-icon::before {
+    top: -8px;
+}
+
+.navbar-toggler-icon::after {
+    top: 8px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    padding: 10px 0;
+}
+
+.hero .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.hero .btn-primary {
+    background-color: #f9f9f9;
+    color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.hero .btn-primary:hover {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #4caf50;
+    text-transform: uppercase;
+}
+
+.features {
+    background-color: #f9f9f9;
+}
+
+.features img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.features p {
+    text-align: justify;
+    font-size: 1rem;
+    color: #555;
+}
+
+.flavors {
+    background-color: #fdfdfd;
+}
+
+.community {
+    background-color: #4caf50;
+}
+
+.community h3 {
+    color: #4caf50;
+}
+
+.community .btn {
+    background-color: #fff;
+    color: #4caf50;
+    border: 1px solid #fff;
+}
+
+.community .btn:hover {
+    background-color: #f9f9f9;
+    color: #4caf50;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.crafting-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.crafting-section .craft-text {
+    flex: 1;
+}
+
+.crafting-section .craft-image {
+    flex: 1;
+}
+
+.crafting-section h2 {
+    margin-bottom: 10px;
+}
+
+.crafting-section .craft-image img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333333;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: rgb(23, 228, 23);
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: black;
+}
+
+footer p a {
+    font-size: 1rem;
+}
+
+/* products css */
+
+.product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.product-card .card-text {
+    font-size: 1rem;
+    color: #555;
+    flex-grow: 1;
+}
+
+.product-card .btn-primary {
+    background-color: #4caf50;
+    border: none;
+    width: 100%;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #45a049;
+}
+
+.category-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4caf50;
+    text-align: center;
+}
+
+.community-section {
+    margin-top: 2rem;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+}
+
+
+.community-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.community-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* blog.css */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 180px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #ff8a75;
+}
+
+.row.g-4 .col-md-4 {
+    display: flex;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+}
+
+/* communit css */
+
+.community-events img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.community-events img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.join-community-section {
+    background-color: #f9f9f9;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.join-community-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.join-community-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.join-community-section a {
+    display: inline-block;
+    margin-top: px;
+    margin-bottom: 5px;
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.join-community-section a:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        background-color: #444444;
+        padding: 20px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: black;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #f1c40f;
+    }
+}
+
+@media (max-width: 992px) {
+    footer {
+        padding: 15px 10px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* products css */
+@media (max-width: 768px) {
+    .product-card img {
+        height: 180px;
+    }
+}
