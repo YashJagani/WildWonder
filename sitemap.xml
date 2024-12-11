@@ -4,84 +4,81 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://wildwonder.onrender.com/</loc>
-  <lastmod>2024-12-11T02:33:23+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/index.html</loc>
-  <lastmod>2024-12-11T02:33:23+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/our-story.html</loc>
-  <lastmod>2024-12-11T02:33:23+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/products.html</loc>
-  <lastmod>2024-12-11T02:33:23+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog.html</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/community.html</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=0</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=1</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=2</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=3</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=4</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=5</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=6</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=7</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wildwonder.onrender.com/blog-details.html?id=8</loc>
-  <lastmod>2024-12-11T02:33:22+00:00</lastmod>
+  <lastmod>2024-12-11T05:20:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>
