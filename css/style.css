@@ -78,6 +78,23 @@ header {
     padding: 10px 0;
 }
 
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .hero .container {
     position: absolute;
     top: 50%;
@@ -85,19 +102,19 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #333;
-    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+    z-index: 2;
 }
 
 .hero h1 {
+    color: white;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 
-.hero h2 {
-    color: black;
-    font-weight: bold;
-    font-size: 1.5rem;
+.hero h2{
+   color: white;
     font-weight: 500;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
 }
 
@@ -238,195 +255,6 @@ footer p a {
     font-size: 1rem;
 }
 
-/* products css */
-
-.product-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.product-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.product-card img {
-    object-fit: cover;
-    height: 200px;
-    border-radius: 8px 8px 0 0;
-}
-
-.product-card .card-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.product-card .card-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #333;
-}
-
-.product-card .card-text {
-    font-size: 1rem;
-    color: #555;
-    flex-grow: 1;
-}
-
-.product-card .btn-primary {
-    background-color: #4caf50;
-    border: none;
-    width: 100%;
-}
-
-.product-card .btn-primary:hover {
-    background-color: #45a049;
-}
-
-.category-heading {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #4caf50;
-    text-align: center;
-}
-
-.community-section {
-    margin-top: 2rem;
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #f9f9f9;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-
-}
-
-
-.community-section h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #4caf50;
-    margin-bottom: 20px;
-}
-
-.community-section p {
-    font-size: 1.2rem;
-    color: #555;
-    line-height: 1.8;
-}
-
-/* blog.css */
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.card-img-top {
-    object-fit: cover;
-    height: 180px;
-    border-radius: 8px 8px 0 0;
-}
-
-.card-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #333;
-}
-
-.card-text {
-    font-size: 0.95rem;
-    color: #555;
-}
-
-.btn-primary {
-    background-color: #ff6f61;
-    border: none;
-    width: 100%;
-}
-
-.btn-primary:hover {
-    background-color: #ff8a75;
-}
-
-.row.g-4 .col-md-4 {
-    display: flex;
-}
-
-.hero {
-    background-size: cover;
-    background-position: center;
-}
-
-/* communit css */
-
-.community-events img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-bottom: 20px;
-}
-
-.community-events img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.join-community-section {
-    background-color: #f9f9f9;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.join-community-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #4caf50;
-}
-
-.join-community-section p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #555;
-}
-
-.join-community-section a {
-    display: inline-block;
-    margin-top: px;
-    margin-bottom: 5px;
-    padding: 8px 20px;
-    background-color: #4caf50;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.join-community-section a:hover {
-    background-color: #45a049;
-}
-
 @media (max-width: 992px) {
     .navbar-nav {
         background-color: #444444;
@@ -449,12 +277,5 @@ footer p a {
 
     footer p {
         font-size: 0.9rem;
-    }
-}
-
-/* products css */
-@media (max-width: 768px) {
-    .product-card img {
-        height: 180px;
     }
 }
